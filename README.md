@@ -21,8 +21,6 @@ This repository serves as a collection of PoCs developed by D4mianWayne (Robin) 
 | HPE Insights Remote Support XXE Vulnerability | [CVE 2024-53675](./CVE%202024-53675/CVE-2024-53675.py) |
 | HPE Insights Remote Support RCE Vulnerability (Theoretical Exploit)| [CVE 2024-53676](./CVE-2024-53676/CVE-2024-53676-Theoretical-Exploit.py) |
 
-
-
 ## Disclaimer
 
 This repository is intended for educational and research purposes only. The PoCs provided here should not be used for any illegal activities or malicious purposes. The maintainers of this repository are not responsible for any misuse of the information and code provided here.
