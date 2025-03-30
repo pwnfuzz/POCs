@@ -20,6 +20,7 @@ This repository serves as a collection of PoCs developed by D4mianWayne (Robin) 
 | Ivanti Endpoint Manager XXE Vulnerability | [CVE 2024-37397](./CVE%202024-37397/CVE-2024-37397-Final-Full-Chain.py) |
 | HPE Insights Remote Support XXE Vulnerability | [CVE 2024-53675](./CVE%202024-53675/CVE-2024-53675.py) |
 | HPE Insights Remote Support RCE Vulnerability (Theoretical Exploit)| [CVE 2024-53676](./CVE-2024-53676/CVE-2024-53676-Theoretical-Exploit.py) |
+| CrushFTP Authentication Bypass Vulnerability | [CVE 2025-2825](./CVE-2025-2825/CVE-2025-2825.py) |
 
 ## Disclaimer
 
