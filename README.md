@@ -1,30 +1,28 @@
-# PoC Repository for CVEs and Vulnerabilities
+# PoC Exploits Collection
 
-Welcome to the PoC (Proof of Concept) repository for demonstrating CVEs (Common Vulnerabilities and Exposures) and other security vulnerabilities. This repository contains code snippets, scripts, and PoCs related to security vulnerabilities discovered in various software, libraries, and frameworks.
+This repository contains proof-of-concept (PoC) exploits and research for various CVEs and vulnerabilities, primarily for educational and security testing purposes. Each folder contains a specific exploit, script, or research artifact related to a particular vulnerability.
 
-## About
+## Included Exploits
 
-This repository serves as a collection of PoCs developed by D4mianWayne (Robin) to showcase security vulnerabilities and their exploitation techniques. Each PoC is categorized based on the CVE identifier or the type of vulnerability it demonstrates.
+| Vulnerability Description                        | CVE ID         | PoC Location/Link                                      |
+|--------------------------------------------------|----------------|-------------------------------------------------------|
+| Ivanti Endpoint Manager XXE                      | CVE-2024-37397 | [CVE 2024-37397](./CVE%202024-37397/)                |
+| Ivanti Avalanche XXE                             | CVE-2024-38653 | [CVE 2024-38653](./CVE%202024-38653/)                |
+| CrushFTP SSTI                                    | CVE-2024-4040  | [CVE 2024-4040](./CVE%202024-4040/)                  |
+| HPE Insights Remote Support XXE                  | CVE-2024-53675 | [CVE 2024-53675](./CVE%202024-53675/)                |
+| HPE Insights Remote Support RCE (Theoretical)    | CVE-2024-53676 | [CVE-2024-53676](./CVE-2024-53676/)                  |
+| Sante PACS Stack Buffer Overflow (DoS)           | CVE-2025-2263  | [CVE-2025-2263](./CVE-2025-2263/)                    |
+| CrushFTP Authentication Bypass                   | CVE-2025-2825  | [CVE-2025-2825](./CVE-2025-2825/)                    |
 
-## Contents
+For details on each exploit, see the respective folder and its README.
 
-- **CVE PoCs**: Demonstrations for CVEs with detailed explanations and exploitation techniques.
-- **Exploit Scripts**: Python scripts, shell scripts, and other tools developed to exploit specific vulnerabilities.
+### Highlight: CVE-2025-2263
+A stack buffer overflow in Sante PACS (version < 4.2.0) that can be triggered by sending a specially crafted encrypted username, leading to denial of service. Full technical details and writeup are available at:
 
-## POCs
-
-| Vulnerability | CVE ID |
-| ------------- | ------ |
-| CrushFTP SSTI Vulnerability | [CVE 2024-4040](./CVE%202024-4040/) |
-| Ivanti Avalanche XXE Vulnerability | [CVE 2024-38653](./CVE%202024-38653/) |
-| Ivanti Endpoint Manager XXE Vulnerability | [CVE 2024-37397](./CVE%202024-37397/CVE-2024-37397-Final-Full-Chain.py) |
-| HPE Insights Remote Support XXE Vulnerability | [CVE 2024-53675](./CVE%202024-53675/CVE-2024-53675.py) |
-| HPE Insights Remote Support RCE Vulnerability (Theoretical Exploit)| [CVE 2024-53676](./CVE-2024-53676/CVE-2024-53676-Theoretical-Exploit.py) |
-| CrushFTP Authentication Bypass Vulnerability | [CVE 2025-2825](./CVE-2025-2825/CVE-2025-2825.py) |
+- [PwnFuzz Labs: Sante PACS CVE-2025-2263 Buffer Overflow](https://labs.pwnfuzz.com/posts/sante-pacs-cve-2025-2263-buffer-overflow/)
 
 ## Disclaimer
-
-This repository is intended for educational and research purposes only. The PoCs provided here should not be used for any illegal activities or malicious purposes. The maintainers of this repository are not responsible for any misuse of the information and code provided here.
+All code and exploits in this repository are provided for educational and authorized security testing purposes only. The authors and contributors do **not** accept any liability for misuse or damage caused by the use of these materials. Use responsibly and only on systems you have explicit permission to test.
 
 ## License
 
